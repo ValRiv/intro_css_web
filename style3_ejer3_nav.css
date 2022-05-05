@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: black;
+    padding-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  /* fila de elementos del header */
+  /* formado por una lista de elementos (ul) */ 
+  header > nav > ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*Del ejemplo:
+  .tituloNavbar {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+  }
+  */
